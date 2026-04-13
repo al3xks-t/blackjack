@@ -1161,6 +1161,7 @@ function TableScreen({ state, setState, onReset }) {
     state.dealerTurnInProgress,
     state.dealerTurnStep,
     state.phase,
+    state.dealerHand.cards.length,
     setState,
   ]);
 
